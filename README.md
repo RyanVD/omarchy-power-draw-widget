@@ -6,6 +6,7 @@ Every 10 seconds, the widget gets a new reading from `omarchy-battery-status` an
 
 An up arrow means the battery is charging, and a down arrow means it is discharging. While charging, the number is the power going into the battery, not what the laptop is using. When the battery is fully charged, the widget shows "Full". While it is plugged in but held at a charge limit, the widget hides.
 
+Widget: 
 <img width="205" height="44" alt="image" src="https://github.com/user-attachments/assets/6f49ca28-c29d-4995-936f-7017f9886539" />
 
 ## Install
