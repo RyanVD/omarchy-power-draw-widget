@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ryanvd.power-draw-widget",
+  "name": "Power Draw Indicator",
+  "version": "1.0.0",
+  "author": "RyanVD",
+  "license": "MIT",
+  "description": "Shows your laptop battery's charge or discharge rate in watts",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Power Draw Indicator",
+    "description": "Battery charge or discharge rate in watts",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
